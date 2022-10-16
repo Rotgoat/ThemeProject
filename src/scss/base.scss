@@ -43,10 +43,6 @@
 // @extend %имя шаблона;
 // Сниппет (SCSS): ex
 // Счетчик для списка
-.listCounter {
-    @extend %listCounter;
-}
-
 %listCounter {
     list-style-type: none;
     counter-reset: item;

@@ -1,8 +1,31 @@
 //====================================================================================================
+.header {
+    // .header__container
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    // .header__logo
+    &__logo {
+        font-size: 46px;
+    }
+    &__menu {
+        display: flex;
+        gap: 15px;
+        font-size: 20px;
+    }
+    // .header__theme
+    &__theme {}
+}
+
+.logo {}
+
+.listCounter {}
 
 //====================================================================================================
-
 //Burger
+
 /*
 .icon-menu {
 	display: none;
