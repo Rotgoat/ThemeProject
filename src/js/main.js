@@ -1,4 +1,4 @@
-const link = 'https://kinobd.ru/api/films';
+const link = '';
 
 const fetchData = async() => {
     const result = await fetch(link);
